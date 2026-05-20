@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "test": "jest",
-    "build": "parcel build index.html && xcopy public dist\\public\\ /E /I /Y"
+    "build": "parcel build index.html"
   },
   "keywords": [
     "react"
