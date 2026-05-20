@@ -1,0 +1,30 @@
+{
+  "name": "nr",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "react",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html && xcopy public dist\\public\\ /E /I /Y"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "ratan",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "process": "^0.11.10",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.13.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "parcel": "2.15.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
